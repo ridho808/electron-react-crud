@@ -30,7 +30,7 @@ export default function ShowList() {
             <Empetylist/>
             :
             <div className='max-w-xl mx-auto'>
-                <h1 className='text-2xl font-bold text-center mt-2'>Todo App Electron x React</h1>
+                <h1 className='text-2xl text-neutral-600 font-bold text-center mt-2'>Todo App Electron x React</h1>
                 <Link to={'Add'} className='w-[110px] p-2 block m-2 bg-teal-400 rounded-lg text-white font-bold text-center'>ADD LIST</Link>
                 <div className='max-w-xl mx-auto shadow-lg mt-5'>
                     <div className="overflow-x-auto relative">
@@ -58,10 +58,10 @@ export default function ShowList() {
                                                 </th>
                                                 {items.Progress === "N" ?
                                                     <td className="py-4 px-6">
-                                                        <span className='text-sm border-2 border-red-500 rounded-lg p-2'>Progress</span>
+                                                        <span className='text-sm border-2 border-[red] rounded-lg p-2'>In Progress</span>
                                                     </td> :
                                                     <td className="py-4 px-6">
-                                                        <span className='text-sm border-2 border-green-500 rounded-lg p-2'>Done</span>
+                                                        <span className='text-sm border-2 border-[green]/80 rounded-lg p-2'>Done</span>
                                                     </td>
                                                 }
                                                 <td className="py-4 px-6 flex justify-center gap-3">
