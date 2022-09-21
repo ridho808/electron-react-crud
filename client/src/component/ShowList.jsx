@@ -30,12 +30,12 @@ export default function ShowList() {
             <Empetylist/>
             :
             <div className='max-w-xl mx-auto'>
-                <h1 className='text-2xl text-neutral-600 font-bold text-center mt-2'>Todo App Electron x React</h1>
-                <Link to={'Add'} className='w-[110px] p-2 block m-2 bg-teal-400 rounded-lg text-white font-bold text-center'>ADD LIST</Link>
-                <div className='max-w-xl mx-auto shadow-lg mt-5'>
-                    <div className="overflow-x-auto relative">
-                        <table className="w-full text-sm text-gray-500 text-center dark:text-gray-400">
-                            <thead className="text-xs text-gray-700 uppercase bg-gray-50">
+                <h1 className='text-2xl text-white font-bold text-center my-6 bg-sky-400 shadow-xl rounded-lg'>Todo App Electron x React</h1>
+                <Link to={'Add'} className='w-[110px] p-2 block m-2 bg-sky-400 rounded-lg text-white font-bold text-center'>ADD LIST</Link>
+                <div className='max-w-xl mx-auto shadow-lg rounded-xl mt-5'>
+                    <div className="overflow-x-auto relative rounded-xl">
+                        <table className="w-full text-sm text-gray-500 text-center">
+                            <thead className="text-xs text-white uppercase bg-sky-400">
                                 <tr>
                                     <th scope="col" className="py-3 px-6">
                                         List
@@ -53,7 +53,7 @@ export default function ShowList() {
                                     list.map((items, index) => {
                                         return (
                                             <tr key={index} className="bg-white border-b">
-                                                <th scope="row" className="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                                <th scope="row" className="py-4 px-6 font-medium text-gray-900 whitespace-nowrap">
                                                     {items.list}
                                                 </th>
                                                 {items.Progress === "N" ?

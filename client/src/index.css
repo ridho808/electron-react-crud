@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+body{
+  background: rgb(238, 237, 237);
+}
 
 .img{
     animation: float 5s ease-in-out infinite;

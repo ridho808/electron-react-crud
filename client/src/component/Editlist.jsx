@@ -38,11 +38,12 @@ export default function Editlist() {
 
     return (
         <div className='max-w-xl mx-auto'>
-            <h1 className='text-2xl font-bold text-center mt-2'>EDIT LIST</h1>
+            <h1 className='text-2xl text-white font-bold text-center my-6 bg-sky-400 shadow-xl rounded-lg'>Todo App Electron x React</h1>
             <Link to={'/'} className='w-[110px] p-2 block m-2 bg-teal-400 rounded-lg text-white font-bold text-center'>
                 BACK
             </Link>
-            <form onSubmit={EditList} className='max-w-xl mx-auto shadow-lg mt-5 '>
+            <form onSubmit={EditList} className='max-w-xl mx-auto shadow-lg mt-5 bg-white rounded-xl'>
+            <h1 className='text-2xl text-white font-bold text-center my-6 bg-sky-400 shadow-xl rounded-t-xl'>EDIT LIST</h1>
                 <div className="gap-6 mb-6 md:grid-cols-2 flex flex-col">
                     <div className='w-[400px] mx-auto'>
                         <label className="block mb-2 text-sm font-medium text-gray-900">List</label>
@@ -64,7 +65,7 @@ export default function Editlist() {
                                 className='rounded-xl w-[20px] h-[20px] text-teal-500 focus:ring-transparent' />
                         </div>
                     </div>
-                    <button type="submit" className="text-white w-[150px] h-[40px] mx-auto bg-green-400 m-2 rounded-md">Submit</button>
+                    <button type="submit" className="text-white w-[150px] h-[40px] mx-auto bg-sky-400 m-2 rounded-md">Submit</button>
                 </div>
             </form>
         </div>
