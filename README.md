@@ -1,3 +1,4 @@
+
 # Electron ✨ REACT-CRUD
 
 # CREATOR/DEVELOPER 🖥 : 
@@ -54,3 +55,5 @@ ketika aplikasi server dijalankan.
 ```
 3. untuk menjalankan client/frontend type `npm run electron`;
 ```
+
+
